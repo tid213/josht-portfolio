@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.bg-img-top{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.bg-img-top img{
+    max-width: 100vw;
+}
+.bg-img-mid{
+    height: 33vh;
+    width: 99vw;
+    background-color: black;
+}
+.bg-img-bot{
+    height: 33%;
+    background-color: black;
+}
