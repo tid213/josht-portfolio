@@ -3,6 +3,9 @@ body{
     padding: 0;
     margin: 0;
 }
+.bg-images{
+    position: absolute;
+}
 .bg-img-top{
     width: 100vw;
     padding: 0;
@@ -18,5 +21,14 @@ body{
 }
 .bg-img-bot{
     height: 33%;
+    background-color: black;
+}
+.main-container{
+    position: absolute;
+    left: 10%;
+}
+.intro-div{
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
 }
