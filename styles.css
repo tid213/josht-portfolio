@@ -7,33 +7,102 @@ body{
 
 .main-container{
     display: flex;
+    flex-direction: row;
     width: 100vw;
 }
 
 .intro-div{
-    max-width: 50%;
-    overflow: hidden;
-}
-
-.info-div{
     width: 50%;
-    background-color: #121212;
+    position: fixed;
 }
 
+.hello-style{
+    color: #E9ECEE;
+}
+.name-style{
+    color: #A3CAE9;
+}
+.info-style{
+    color: #6E9FC1;
+}
 .name-info{
     color: white;
-    margin-top: 30vh;
+    margin-top: 10vh;
     margin-left: 10rem;
     z-index: 1;
     position: absolute;
 }
 .name-info h4{
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
 }
+.name-info p{
+    font-size: 1.25rem;
+}
+.name-info b{
+    color: yellow;
+}
+.tabs-div{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    color: #ACACAC;
+}
+.about-tab, .hobbies-tab, .projects-tab{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.about-tab span, .hobbies-tab span, .projects-tab span{
+    font-weight: 600;
+    margin-left: .75rem;
+    font-size: .75rem;
+}
+.about-tab span:hover{
+    color: white;
+}
+.hobbies-tab span:hover{
+    color: white;
+}
+.projects-tab span:hover{
+    color: white;
+}
 .contact-icons img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+
+.about-me-div{
+    width: 40%;
+    color: #A3CAE9;
+    margin-left: auto;
+    margin-right: 7rem;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.garden-hobby-div, .woodcraft-hobby-div, .technology-hobby-div{
+    width: 40%;
+    color: #ACACAC;
+    margin-left: auto;
+    margin-right: 6rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.garden-hobby-div:hover, .woodcraft-hobby-div:hover, .technology-hobby-div:hover{
+    background-color: rgb(163, 202, 233, .1);
+    color: #6E9FC1;
+
+}
+.garden-title, .woodcraft-title, .technology-title{
+    display: flex;
+    align-items: center;
+}
+.garden-title span, .woodcraft-title span, .technology-title span{
+    margin-left: .5rem;
+}
+.garden-text, .woodcraft-text, .technology-text{
+    padding: .5rem;
 }
 /* Moving boxes styles*/
 .area {
@@ -47,7 +116,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
   }
