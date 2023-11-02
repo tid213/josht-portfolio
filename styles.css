@@ -11,11 +11,12 @@ body{
     width: 100vw;
 }
 
+/* Name and contact styles */
+
 .intro-div{
     width: 50%;
     position: fixed;
 }
-
 .hello-style{
     color: #E9ECEE;
 }
@@ -72,6 +73,8 @@ body{
     margin-right: .5rem;
 }
 
+/* About me styles*/
+
 .about-me-div{
     width: 40%;
     color: #A3CAE9;
@@ -80,19 +83,27 @@ body{
     margin-top: 15%;
     margin-bottom: 15%;
 }
+
+/* Hobbies styles*/
+
 .garden-hobby-div, .woodcraft-hobby-div, .technology-hobby-div{
     width: 40%;
     color: #ACACAC;
     margin-left: auto;
-    margin-right: 6rem;
+    margin-right: 5rem;
     padding: 1rem;
-    border-radius: 20px;
+    border-radius: .5rem;
 }
 
 .garden-hobby-div:hover, .woodcraft-hobby-div:hover, .technology-hobby-div:hover{
     background-color: rgb(163, 202, 233, .1);
-    color: #6E9FC1;
+    
+    border-top: 1px solid #6E9FC1;
 
+}
+.garden-hobby-div:hover .garden-title, .woodcraft-hobby-div:hover .woodcraft-title, 
+.technology-hobby-div:hover .technology-title{
+    color: #6E9FC1;
 }
 .garden-title, .woodcraft-title, .technology-title{
     display: flex;
@@ -103,6 +114,64 @@ body{
 }
 .garden-text, .woodcraft-text, .technology-text{
     padding: .5rem;
+}
+
+/* Project list styles */
+
+.projects-div{
+    margin-top: 10%;
+    width: 40%;
+    color: #ACACAC;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+.project-div:hover{
+    background-color: rgb(163, 202, 233, .1);
+    border-top: 1px solid #6E9FC1;
+}
+.project-div:hover .project-title{
+    color: #6E9FC1;
+}
+.project-div{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border-top: 1px solid #121212;
+}
+.project-title{
+    display: flex;
+    align-items: center;
+}
+.project-title span{
+    margin-left: .5rem;
+}
+.project-stack{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ps-button, .github-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: #395A7F;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-radius: 15px;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+.ps-button span, .github-link span{
+    font-size: .75rem;
+    font-weight: 500;
+    color: #A3CAE9;
+}
+
+.btm-spacer{
+    height: 5rem;
 }
 /* Moving boxes styles*/
 .area {
