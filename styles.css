@@ -118,6 +118,10 @@ body{
 
 /* Project list styles */
 
+.slider-bar-expand{
+    display: none;
+}
+
 .projects-div{
     margin-top: 10%;
     width: 40%;
@@ -131,6 +135,10 @@ body{
 }
 .project-div:hover .project-title{
     color: #6E9FC1;
+}
+.project-div:hover .slider-bar-expand{
+    display: flex;
+    align-items: center;
 }
 .project-div{
     margin-top: 2rem;
