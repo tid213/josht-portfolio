@@ -60,7 +60,6 @@ ul{
     margin-bottom: 1.5rem;
 }
 .tabs-div a{
-    font-weight: 600;
     margin-left: .75rem;
     font-size: .75rem;
     text-decoration: none;
@@ -68,7 +67,14 @@ ul{
 }
 nav .tabs-div ul li.active a {
     color: white;
+    font-weight: 500;
     }
+.line-extend{
+    display: none;
+}
+.active{
+    display: block;
+}
 /*
 .about-tab, .hobbies-tab, .projects-tab{
     display: flex;
