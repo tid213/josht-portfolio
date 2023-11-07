@@ -106,10 +106,14 @@ nav .tabs-div ul li.active a {
 
 .about-me-div{
     width: 40%;
-    color: #A3CAE9;
+    color: lightgrey;
     margin-left: auto;
     margin-right: 7rem;
     margin-bottom: 15%;
+}
+.about-me-div b{
+    font-weight: 400;
+    color: #6E9FC1;
 }
 .spacer-top{
     display: inline-block;
@@ -161,6 +165,21 @@ nav .tabs-div ul li.active a {
     margin-left: auto;
     margin-right: 5rem;
 }
+.project-image{
+    float: left;
+    width: 40%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: .25rem;
+    border: 1px solid #ACACAC;
+    border-radius: 5px;
+    padding: .25rem;
+    opacity: .66;
+}
+.project-image img{
+    width: 100%;
+    height: 185px;
+}
 .project-div:hover{
     background-color: rgb(163, 202, 233, .1);
     border-top: 1px solid #6E9FC1;
@@ -171,6 +190,9 @@ nav .tabs-div ul li.active a {
 .project-div:hover .slider-bar-expand{
     display: flex;
     align-items: center;
+}
+.project-div:hover .project-image{
+    opacity: 1;
 }
 .project-div{
     margin-top: 2rem;
