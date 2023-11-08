@@ -18,7 +18,6 @@ window.onscroll = () => {
             line.classList.remove("active");
             if(line.classList.contains(current)){
                 line.classList.add("active")
-                console.log(navLine)
             }
         })
       li.classList.add("active");

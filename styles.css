@@ -170,7 +170,7 @@ nav .tabs-div ul li.active a {
     width: 40%;
     margin-top: 1rem;
     margin-right: 1rem;
-    margin-bottom: .25rem;
+    margin-bottom: .1rem;
     border: 1px solid #ACACAC;
     border-radius: 5px;
     padding: .25rem;
@@ -180,9 +180,19 @@ nav .tabs-div ul li.active a {
     width: 100%;
     height: 185px;
 }
+.project-link{
+    margin-left: .5rem;
+    display: none;
+}
+.project-link img{
+    max-height: 1rem;
+}
 .project-div:hover{
     background-color: rgb(163, 202, 233, .1);
     border-top: 1px solid #6E9FC1;
+}
+.project-div:hover p{
+    color: lightgrey;
 }
 .project-div:hover .project-title{
     color: #6E9FC1;
@@ -193,6 +203,9 @@ nav .tabs-div ul li.active a {
 }
 .project-div:hover .project-image{
     opacity: 1;
+}
+.project-div:hover .project-link{
+    display: block;
 }
 .project-div{
     margin-top: 2rem;
@@ -211,6 +224,12 @@ nav .tabs-div ul li.active a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.github-link a{
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 500;
+    color: #A3CAE9;
 }
 .ps-button, .github-link{
     display: flex;
@@ -231,6 +250,7 @@ nav .tabs-div ul li.active a {
     font-weight: 500;
     color: #A3CAE9;
 }
+
 
 .btm-spacer{
     height: 5rem;
