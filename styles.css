@@ -35,7 +35,7 @@ ul{
 .name-info{
     color: white;
     margin-top: 10vh;
-    margin-left: 10rem;
+    margin-left: 7rem;
     z-index: 1;
     position: absolute;
 }
@@ -102,14 +102,23 @@ nav .tabs-div ul li.active a {
     margin-right: .5rem;
 }
 
+.info-div{
+    width: 50%;
+    margin-left: 50%;
+}
+
 /* About me styles*/
 
 .about-me-div{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
     color: lightgrey;
     margin-left: auto;
-    margin-right: 7rem;
-    margin-bottom: 15%;
+    margin-right: 5rem;
+    margin-bottom: 25%;
 }
 .about-me-div b{
     font-weight: 400;
@@ -123,10 +132,9 @@ nav .tabs-div ul li.active a {
 /* Hobbies styles*/
 
 .garden-hobby-div, .woodcraft-hobby-div, .technology-hobby-div{
-    width: 40%;
+    max-width: 80%;
     color: #ACACAC;
-    margin-left: auto;
-    margin-right: 5rem;
+    margin-right: 2rem;
     padding: 1rem;
     border-radius: .5rem;
 }
@@ -160,10 +168,10 @@ nav .tabs-div ul li.active a {
 
 .projects-div{
     margin-top: 10%;
-    width: 40%;
+    max-width: 90%;
     color: #ACACAC;
     margin-left: auto;
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 .project-image{
     float: left;
@@ -178,7 +186,6 @@ nav .tabs-div ul li.active a {
 }
 .project-image img{
     width: 100%;
-    height: 185px;
 }
 .project-link{
     margin-left: .5rem;
