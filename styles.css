@@ -175,7 +175,7 @@ nav .tabs-div ul li.active a {
 }
 .project-image{
     float: left;
-    width: 40%;
+    width: 33%;
     margin-top: 1rem;
     margin-right: 1rem;
     margin-bottom: .1rem;
@@ -219,6 +219,7 @@ nav .tabs-div ul li.active a {
     padding: 1rem;
     border-radius: .5rem;
     border-top: 1px solid #121212;
+    height: fit-content;
 }
 .project-title{
     display: flex;
